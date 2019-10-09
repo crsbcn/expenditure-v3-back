@@ -1,0 +1,67 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="..\css\bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="..\css\style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body>
+	<div class="hero is-light is-fullheight">
+		<div class="hero-head">
+			<div class="navbar">
+				<div class="container">
+	 				<div class="navbar-menu">
+						<div class="navbar-end">
+							<a class="navbar-item" href="#">
+								Dark Mode
+							</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="column is-4 is-offset-4">
+					<div class="box is-dark">
+						<form action="/login/" method="POST">
+							<div class="field">
+								<div class="control has-icons-left">
+									<input name="email" class="input is-medium" type="email" placeholder="Email" autofocus="">
+									<span class="icon is-small is-left">
+      									<i class="fas fa-envelope"></i>
+    								</span>
+								</div>
+							</div>
+							<div class="field">
+								<div class="control has-icons-left">
+									<input name="password" class="input is-medium" type="password" placeholder="Password">
+									<span class="icon is-small is-left">
+      									<i class="fas fa-unlock"></i>
+    								</span>
+								</div>
+							</div>
+							<div class="field">
+								<label class="checkbox">
+									<input type="checkbox"> Remember me
+								</label>
+							</div>
+							<button class="button is-info is-light is-medium is-fullwidth">
+								Login
+							</button>
+						</form>
+					</div>
+					<p class="has-text-grey">
+						<a href="#">Forgot Password</a> &nbsp;&nbsp;
+						<a href="#">Need Help?</a> &nbsp;&nbsp;
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
